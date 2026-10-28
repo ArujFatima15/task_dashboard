@@ -1,0 +1,15 @@
+body{margin:0;font-family:system-ui,sans-serif}
+.app{min-height:100vh;padding:16px;max-width:720px;margin:auto}
+.app.light{background:#f4f6f8;color:#1a1a1a}
+.app.dark{background:#15181c;color:#eee}
+.card{background:rgba(127,127,127,.12);border-radius:10px;padding:14px;margin:14px 0}
+.header{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.form{display:flex;gap:8px}.form input{flex:1}
+input,select,button{padding:8px;border-radius:6px;border:1px solid #8886}
+button{cursor:pointer}.filters button.active{background:#3b82f6;color:#fff}
+.list,.logs{list-style:none;padding:0}
+.task{display:flex;gap:8px;align-items:center;padding:6px 0}.task .title{flex:1}
+.task.done .title{text-decoration:line-through;opacity:.6}
+.badge{font-size:12px;padding:2px 8px;border-radius:10px;background:#8883}.badge.high{background:#ef4444;color:#fff}
+.empty{opacity:.7}.logs{font-size:13px;max-height:160px;overflow:auto}
+.toast{position:fixed;bottom:20px;right:20px;background:#111;color:#fff;padding:10px 16px;border-radius:8px}
